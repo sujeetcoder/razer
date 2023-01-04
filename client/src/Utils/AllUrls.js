@@ -1,0 +1,1 @@
+export const dataUrl = process.env.REACT_APP_DATA_URL

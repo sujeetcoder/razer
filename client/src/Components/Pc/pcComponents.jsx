@@ -1,9 +1,10 @@
 import React from 'react'
+import PcHeader from './PcHeader'
 
-const pcComponents = () => {
+const PcComponents = () => {
   return (
-    <div>pcComponents</div>
+    <PcHeader/>
   )
 }
 
-export default pcComponents
+export default PcComponents

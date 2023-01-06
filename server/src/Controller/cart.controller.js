@@ -14,7 +14,7 @@ const getUserCarts = async (req, res) => {
             res.status(404).send("Cart not found")
         }
     } catch (e) {
-        res.send(e.message)
+        res.status(500).send(e.message)
     }
 }
 
@@ -29,7 +29,7 @@ const approve = async (req, res) => {
             res.send("cart not found")
         }
     } catch (e) {
-        res.status(404).send(e.message)
+        res.status(500).send(e.message)
     }
    
 }
@@ -45,7 +45,7 @@ const getAllCart = async (req, res) => {
             res.status(404).send("Cart not found")
         }
     } catch (e) {
-        res.send(e.message)
+        res.status(500).send(e.message)
     }
 }
 
@@ -63,7 +63,7 @@ const addToCart =  async (req, res) => {
             res.status(404).send("product out of stack")
         }
     } catch (e) {
-        res.send(e.message)
+        res.status(500).send(e.message)
     }
 }
 
@@ -77,7 +77,7 @@ const deleteCartItem = async (req, res) => {
             res.send("Cart not found")
         }
     } catch (e) {
-        res.status(404).send(e.message)
+        res.status(500).send(e.message)
     }
    
 }
@@ -92,7 +92,7 @@ const deleteAllCartItems = async (req, res) => {
             res.send("Cart not found")
         }
     } catch (e) {
-        res.status(404).send(e.message)
+        res.status(500).send(e.message)
     }
    
 }

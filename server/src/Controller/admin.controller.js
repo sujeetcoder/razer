@@ -15,8 +15,8 @@ const getAllUsers = async(req,res)=>{
         else{ 
             res.status(404).send("no users found")
         }
-    } catch (error) {
-        res.status(500).send(error.message)
+    } catch (e) {
+        res.status(500).send(e.message)
     }
 }
 
@@ -29,8 +29,8 @@ const getAllAdmins = async(req,res)=>{
         else{ 
             res.status(404).send("no admin found")
         }
-    } catch (error) {
-        res.send(error.message)
+    } catch (e) {
+        res.status(500).send(e.message)
     }
 }
 
@@ -44,7 +44,7 @@ const deleteUser = async (req, res) => {
             res.status(404).send("user not found")
         }
     } catch (e) {
-        res.send(e.message)
+        res.status(500).send(e.message)
     }
 }
 
@@ -59,7 +59,7 @@ const roleChange = async (req, res) => {
             res.status(404).send("user not found")
         }
     } catch (e) {
-        res.send(e.message)
+        res.status(500).send(e.message)
     }
    
 }
@@ -85,7 +85,7 @@ const banUser = async (req, res) => {
             res.status(404).send("user not found")
         }
     } catch (e) {
-        res.send(e.message)
+        res.status(500).send(e.message)
     }
    
 }

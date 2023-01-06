@@ -49,8 +49,7 @@ try {
         res.status(404).send(`User with ${email} not found`)
     }
 } catch (e) {
-    res.send(e.message)
-}
+        res.status(500).send(e.message)}
 }
 
 
@@ -67,7 +66,7 @@ const logOut = async (req, res) => {
             res.status(404).send("user not found")
         }
     } catch (e) {
-        res.send(e.message)
+        res.status(500).send(e.message)
     }
 }
 
@@ -83,7 +82,7 @@ const updateUser = async (req, res) => {
             res.status(404).send("user not found")
         }
     } catch (e) {
-        res.send(e.message)
+        res.status(500).send(e.message)
     }
    
 }
@@ -98,7 +97,7 @@ const getSingleUser = async (req, res) => {
             res.status(404).send(`user ${email} not found`)
         }
     } catch (e) {
-        res.send(e.message)
+        res.status(500).send(e.message)
     }
 }
 

@@ -16,7 +16,7 @@ const getAllProducts = async (req, res) => {
             res.status(404).send("product not found")
         }
     } catch (e) {
-        res.send(e.message)
+        res.status(500).send(e.message)
     }
 }
 
@@ -31,7 +31,7 @@ const getProByCategory = async (req, res) => {
             res.status(404).send("product not found")
         }
     } catch (e) {
-        res.send(e.message)
+        res.status(500).send(e.message)
     }
 }
 
@@ -50,7 +50,7 @@ const createPro = async (req, res) => {
             res.send("Product added successfully")
         }
     } catch (e) {
-        res.send(e.message)
+        res.status(500).send(e.message)
     }
 }
 
@@ -65,7 +65,7 @@ const updatePro = async (req, res) => {
             res.send("Product not found")
         }
     } catch (e) {
-        res.status(404).send(e.message)
+        res.status(500).send(e.message)
     }
    
 }
@@ -80,7 +80,7 @@ const deletePro = async (req, res) => {
             res.send("Product not found")
         }
     } catch (e) {
-        res.status(404).send(e.message)
+        res.status(500).send(e.message)
     }
    
 }

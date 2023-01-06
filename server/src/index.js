@@ -14,7 +14,7 @@ const adminRouter = require("./routes/admin.route")
 
 app.use(express.json())
 app.use(cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000", "https://razer0.netlify.app"],
     credentials: true
 }))
 app.set("trust proxy", 1)

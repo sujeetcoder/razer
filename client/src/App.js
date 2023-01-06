@@ -6,11 +6,10 @@ import AllRoutes from "./Routes/AllRoutes";
 
 function App() {
   return (
-    <Box>
+    <Box className="App">
     <Navbar />
       <AllRoutes />
       <Footer/>
-    
     </Box>
   );
 }

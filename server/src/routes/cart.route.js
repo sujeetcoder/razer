@@ -10,16 +10,15 @@ app.use(userAuth)
 
 app.get("/",  getUserCarts)
 
+app.delete("/:product",   deleteCartItem)
+
+app.delete("/deleteall",  deleteAllCartItems)
+
 app.patch("/approve/:_id", adminAuth , approve)
 
 app.get("/allcarts", adminAuth, getAllCart)
 
 app.post("/:_id", adminAuth, addToCart)
-
-app.delete("/:product", adminAuth,  deleteCartItem)
-
-app.delete("/deleteall", adminAuth,  deleteAllCartItems)
-
 
 
 

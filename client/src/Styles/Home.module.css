@@ -1,3 +1,160 @@
-/* .main_boxx{
-    text-align: center;
-} */
+.main_boxx {
+  text-align: center;
+}
+@media (max-width: 537px) {
+  .mobile_side {
+    font-size: 12px;
+  }
+}
+.first_box {
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-blade-16-18-homepage-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  z-index: 1;
+  background-size: cover;
+  cursor: pointer;
+}
+.second_box {
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-leviathan-v2-pro-homepage-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  z-index: 1;
+  background-size: cover;
+  cursor: pointer;
+}
+.third_box {
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/kiyo-pro-ultra-homepage-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  z-index: 1;
+  background-size: cover;
+  cursor: pointer;
+}
+/* Grid  Box*/
+
+.give_grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.gone_box {
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/1c910cd8c33d218a9dee44028ed85ba0/project-carol-b-950x580-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  cursor: pointer;
+}
+.gtwo_box {
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/enkipro-lamborghini-b-950x580-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  cursor: pointer;
+}
+.gthree_box {
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/1c910cd8c33d218a9dee44028ed85ba0/razer-wolverine-v2-pro-black-white-b-950x580-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  cursor: pointer;
+}
+.gfour_box {
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/1c910cd8c33d218a9dee44028ed85ba0/razer-vr-accessories-b-950x580-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  cursor: pointer;
+}
+.gfive_box {
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/dec1968e4414aa9dd00718ae5c3f531b/razer-edge-b-950x580-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  cursor: pointer;
+}
+.gsix_box {
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/1c910cd8c33d218a9dee44028ed85ba0/razer-blade-141517-b-950x580-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  cursor: pointer;
+}
+/* 680 sec */
+@media (max-width: 685px) {
+    .give_grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .first_box {
+      background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-blade-16-18-homepage-desktop.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 700px;
+      z-index: 1;
+      background-size: cover;
+      cursor: pointer;
+    }
+    .second_box {
+      background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-leviathan-v2-pro-homepage-desktop.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 800px;
+      z-index: 1;
+      background-size: cover;
+      cursor: pointer;
+    }
+    .third_box {
+      background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/kiyo-pro-ultra-homepage-desktop.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 600px;
+      z-index: 1;
+      background-size: cover;
+      cursor: pointer;
+    }
+  }
+
+
+/* 500 sec */
+@media (max-width: 500px) {
+    .first_box {
+      background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-blade-16-18-homepage-desktop.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 1000px;
+      z-index: 1;
+      background-size: cover;
+      cursor: pointer;
+    }
+    .second_box {
+      background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-leviathan-v2-pro-homepage-desktop.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 1000px;
+      z-index: 1;
+      background-size: cover;
+      cursor: pointer;
+    }
+    .third_box {
+      background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/kiyo-pro-ultra-homepage-desktop.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 1000px;
+      z-index: 1;
+      background-size: cover;
+      cursor: pointer;
+    }
+  }

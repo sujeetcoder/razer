@@ -59,14 +59,24 @@ const Navbar = () => {
                   color: "inherit",
                 }}
                 variant="ghost"
-                icon={<FcMenu />}
+                icon={<FcMenu size={50} />}
                 onClick={mobileNav.onOpen}
               />
-              <Link to="/"><Image
-                src="https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg"
-                m={"auto"}
-                w={"35px"}
-              />
+              <Link to="/">
+                <Flex justifyContent={"space-evenly"} alignItems="center">
+                  <Image
+                    src="https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg"
+                    w={"40px"}
+                    m="auto"
+                  />
+                  <Button
+                    _hover={{ bg: "black", color: "white" }}
+                    variant="ghost"
+                    size="sm"
+                  >
+                    <BiCartAlt size={25} />
+                  </Button>
+                </Flex>
               </Link>
               <VStack
                 pos="absolute"
@@ -95,14 +105,16 @@ const Navbar = () => {
                 >
                   Store
                 </Button>
-                <Link to="/pc"><Button
-                  fontWeight="normal"
-                  fontSize={18}
-                  w="full"
-                  variant="ghost"
-                >
-                  PC
-                </Button></Link>
+                <Link to="/pc">
+                  <Button
+                    fontWeight="normal"
+                    fontSize={18}
+                    w="full"
+                    variant="ghost"
+                  >
+                    PC
+                  </Button>
+                </Link>
                 <Button
                   fontWeight="normal"
                   fontSize={18}
@@ -111,14 +123,16 @@ const Navbar = () => {
                 >
                   Console
                 </Button>
-                <Link to="/mobile"><Button
-                  fontWeight="normal"
-                  fontSize={18}
-                  w="full"
-                  variant="ghost"
-                >
-                  Mobile
-                </Button></Link>
+                <Link to="/mobile">
+                  <Button
+                    fontWeight="normal"
+                    fontSize={18}
+                    w="full"
+                    variant="ghost"
+                  >
+                    Mobile
+                  </Button>
+                </Link>
                 <Button
                   fontWeight="normal"
                   fontSize={18}
@@ -170,11 +184,13 @@ const Navbar = () => {
                 md: "inline-flex",
               }}
             >
-              <Link to="/"><Image
-                src="https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg"
-                mr="2%"
-                w={"38px"}
-              /></Link>
+              <Link to="/">
+                <Image
+                  src="https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg"
+                  mr="2%"
+                  w={"38px"}
+                />
+              </Link>
               <Button
                 _hover={{ bg: "black", color: "white" }}
                 fontWeight="normal"
@@ -184,33 +200,39 @@ const Navbar = () => {
               >
                 Store
               </Button>
-              <Link to="/pc"><Button
-                _hover={{ bg: "black", color: "white" }}
-                fontWeight="normal"
-                fontSize={20}
-                variant="ghost"
-                size="sm"
-              >
-                PC
-              </Button></Link>
-              <Link to="/console"><Button
-                _hover={{ bg: "black", color: "white" }}
-                fontWeight="normal"
-                fontSize={20}
-                variant="ghost"
-                size="sm"
-              >
-                Console
-              </Button></Link>
-              <Link to="/mobile"><Button
-                _hover={{ bg: "black", color: "white" }}
-                fontWeight="normal"
-                fontSize={20}
-                variant="ghost"
-                size="sm"
-              >
-                Mobile
-              </Button></Link>
+              <Link to="/pc">
+                <Button
+                  _hover={{ bg: "black", color: "white" }}
+                  fontWeight="normal"
+                  fontSize={20}
+                  variant="ghost"
+                  size="sm"
+                >
+                  PC
+                </Button>
+              </Link>
+              <Link to="/console">
+                <Button
+                  _hover={{ bg: "black", color: "white" }}
+                  fontWeight="normal"
+                  fontSize={20}
+                  variant="ghost"
+                  size="sm"
+                >
+                  Console
+                </Button>
+              </Link>
+              <Link to="/mobile">
+                <Button
+                  _hover={{ bg: "black", color: "white" }}
+                  fontWeight="normal"
+                  fontSize={20}
+                  variant="ghost"
+                  size="sm"
+                >
+                  Mobile
+                </Button>
+              </Link>
               <Button
                 _hover={{ bg: "black", color: "white" }}
                 fontWeight="normal"

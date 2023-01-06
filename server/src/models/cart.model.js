@@ -23,7 +23,7 @@ const cartSchema = new mongoose.Schema({
     info: [
         {
             message: {type: String, required:true},
-            date: {type:String, default: Date()}
+            date: {type:String, default: new Date() }
         }
     ]
 

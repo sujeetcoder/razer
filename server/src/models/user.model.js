@@ -10,7 +10,7 @@ const userSchema = new mongoose.Schema({
     role:{type:String,enum:["user","admin","CEO"],default:"user"},
     status:{type:String,enum:["active","ban"],default:"active"},
     logStatus: {type:Boolean, default:false},
-    /* last_login: {type:String} */
+    last_login: {type:Number,default: new Date.now()}
 },
 {
     versionKey: false,

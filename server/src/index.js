@@ -42,6 +42,10 @@ app.get("/",async(req,res)=>{
 
 
 app.listen(process.env.PORT, async () => {
-    await connectMongo()
-    console.log("listening to http://localhost:8080");
+    try {
+        await connectMongo()
+        console.log(`listening to http://localhost:${process.env.PORT}`);
+    } catch (error) {
+        console.log(error)
+    }
 })

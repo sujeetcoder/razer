@@ -10,7 +10,7 @@ app.use(userAuth)
 
 app.get("/",  getUserCarts)
 
-app.delete("/:product",   deleteCartItem)
+app.delete("/:_id",   deleteCartItem)
 
 app.delete("/deleteall",  deleteAllCartItems)
 

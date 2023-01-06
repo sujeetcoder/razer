@@ -7,7 +7,7 @@ const crypto = require("crypto")
 
 
 const signUp = async (req, res) => {
-    const {email,razer_id,password} = req.body
+    let {email,razer_id,password} = req.body
     let ipAddress = IP.address()
     razer_id = razer_id || generateFromEmail(
         email,
@@ -38,7 +38,7 @@ try {
         if(user.email===email && user.password===password){
            let newUser = await User.findOneAndUpdate({email},{logStatus:true},{new:true})
            res.cookie("_id", `${user?._id}` ,{httpOnly: true ,maxAge: 86400000,secure:true,sameSite:"none"})
-           res.cookie("name", `${user?.name}` ,{httpOnly: true ,maxAge: 86400000,secure:true,sameSite:"none"})
+           res.cookie("visit", `${user?._id}` ,{httpOnly: true ,secure:true,sameSite:"none"})
           /*  res.send(req.cookies) */
            res.send(newUser)
         } else {
@@ -60,7 +60,6 @@ const logOut = async (req, res) => {
         if(existing){
             await User.findOneAndUpdate({email},{logStatus:false},{new:true})
             res.cookie("_id", `${existing?._id}` ,{httpOnly: true ,maxAge: 1,secure:true,sameSite:"none"})
-            res.cookie("name", `${existing?.name}` ,{httpOnly: true ,maxAge: 1,secure:true,sameSite:"none"})
             res.send("logout successful")
         } else {
             res.status(404).send("user not found")
@@ -77,7 +76,7 @@ const updateUser = async (req, res) => {
     try {
         let existing = await User.findOneAndUpdate({email},{...req.body},{new: true})
         if(existing){
-            res.send(JSON.stringify(existing))  
+            res.send(existing)  
         } else {
             res.status(404).send("user not found")
         }

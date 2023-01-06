@@ -5,11 +5,10 @@ const Product = require("../models/products.model")
 
 const getUserCarts = async (req, res) => {
     let carts;
-        carts = await Cart.find({user:req.user}).populate(["user","product"])
-    
     try {
+        carts = await Cart.find({user:req.user}).populate(["user","product"])
         if(carts){
-            res.send(JSON.stringify(carts))
+            res.send(carts)
         } else {
             res.status(404).send("Cart not found")
         }
@@ -24,9 +23,9 @@ const approve = async (req, res) => {
     try {
         let existing = await Cart.findOneAndUpdate({_id},{approve:true},{new: true})
         if(existing){
-            res.send("cart updated successfully")  
+            res.send("Order delivered successfully")  
         } else {
-            res.send("cart not found")
+            res.status(404).send("cart not found")
         }
     } catch (e) {
         res.status(500).send(e.message)
@@ -68,13 +67,13 @@ const addToCart =  async (req, res) => {
 }
 
 const deleteCartItem = async (req, res) => {
-    let product = req.params.product
+    let {_id} = req.params
     try {
-        let existing = await Cart.findOneAndDelete({product})
+        let existing = await Cart.findOneAndDelete({_id})
         if(existing){
             res.send(`Cart deleted successfully`)
         } else {
-            res.send("Cart not found")
+            res.status(404).send("Cart not found")
         }
     } catch (e) {
         res.status(500).send(e.message)
@@ -89,7 +88,7 @@ const deleteAllCartItems = async (req, res) => {
         if(existing){
             res.send(`Cart deleted successfully`)
         } else {
-            res.send("Cart not found")
+            res.status(404).send("Cart not found")
         }
     } catch (e) {
         res.status(500).send(e.message)

@@ -75,6 +75,9 @@ const banUser = async (req, res) => {
     try {
         let existing = await User.findOne({email})
         if(existing){
+            if(existing.role!=="user"){
+                return res.status(401).send("You can't ban or unban admins")
+            }
             await User.findOneAndUpdate({email},{status},{new:true})
             if(status=="ban"){
                 res.send(`User ban successfully`)

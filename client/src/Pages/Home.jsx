@@ -1,8 +1,11 @@
+import { Box } from '@chakra-ui/react'
 import React from 'react'
-
+// import styles from "../Styles/Home.module.css"
 const Home = () => {
   return (
-    <div>Home</div>
+    <Box >
+      krle yr bhai ab to start
+    </Box>
   )
 }
 

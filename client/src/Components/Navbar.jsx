@@ -14,6 +14,7 @@ import {
 import React from "react";
 import { BiSearch, BiCartAlt } from "react-icons/bi";
 import { FcMenu } from "react-icons/fc";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const bg = useColorModeValue("Black");
   const mobileNav = useDisclosure();
@@ -61,11 +62,12 @@ const Navbar = () => {
                 icon={<FcMenu />}
                 onClick={mobileNav.onOpen}
               />
-              <Image
+              <Link to="/"><Image
                 src="https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg"
                 m={"auto"}
                 w={"35px"}
               />
+              </Link>
               <VStack
                 pos="absolute"
                 top={0}
@@ -93,14 +95,14 @@ const Navbar = () => {
                 >
                   Store
                 </Button>
-                <Button
+                <Link to="/pc"><Button
                   fontWeight="normal"
                   fontSize={18}
                   w="full"
                   variant="ghost"
                 >
                   PC
-                </Button>
+                </Button></Link>
                 <Button
                   fontWeight="normal"
                   fontSize={18}
@@ -168,11 +170,11 @@ const Navbar = () => {
                 md: "inline-flex",
               }}
             >
-              <Image
+              <Link to="/"><Image
                 src="https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg"
                 mr="2%"
                 w={"38px"}
-              />
+              /></Link>
               <Button
                 _hover={{ bg: "black", color: "white" }}
                 fontWeight="normal"
@@ -182,7 +184,7 @@ const Navbar = () => {
               >
                 Store
               </Button>
-              <Button
+              <Link to="/pc"><Button
                 _hover={{ bg: "black", color: "white" }}
                 fontWeight="normal"
                 fontSize={20}
@@ -190,8 +192,8 @@ const Navbar = () => {
                 size="sm"
               >
                 PC
-              </Button>
-              <Button
+              </Button></Link>
+              <Link to="/console"><Button
                 _hover={{ bg: "black", color: "white" }}
                 fontWeight="normal"
                 fontSize={20}
@@ -199,7 +201,7 @@ const Navbar = () => {
                 size="sm"
               >
                 Console
-              </Button>
+              </Button></Link>
               <Button
                 _hover={{ bg: "black", color: "white" }}
                 fontWeight="normal"

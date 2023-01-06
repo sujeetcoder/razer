@@ -111,14 +111,14 @@ const Navbar = () => {
                 >
                   Console
                 </Button>
-                <Button
+                <Link to="/mobile"><Button
                   fontWeight="normal"
                   fontSize={18}
                   w="full"
                   variant="ghost"
                 >
                   Mobile
-                </Button>
+                </Button></Link>
                 <Button
                   fontWeight="normal"
                   fontSize={18}
@@ -202,7 +202,7 @@ const Navbar = () => {
               >
                 Console
               </Button></Link>
-              <Button
+              <Link to="/mobile"><Button
                 _hover={{ bg: "black", color: "white" }}
                 fontWeight="normal"
                 fontSize={20}
@@ -210,7 +210,7 @@ const Navbar = () => {
                 size="sm"
               >
                 Mobile
-              </Button>
+              </Button></Link>
               <Button
                 _hover={{ bg: "black", color: "white" }}
                 fontWeight="normal"

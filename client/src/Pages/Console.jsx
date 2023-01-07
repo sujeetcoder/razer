@@ -4,6 +4,7 @@ import Consolebox from '../Components/Console/Consolebox'
 import Consolebg from '../Components/Console/Consolebg' 
 import  Consoletwob  from '../Components/Console/Consoletwob' 
 import Consolebgtwo from '../Components/Console/Consolebgtwo'
+import { Consolecard } from '../Components/Console/Consolecard'
 const Console = () => {
   return (
     <>
@@ -12,7 +13,7 @@ const Console = () => {
     <Consolebg/>
     <Consoletwob/>
     <Consolebgtwo/>
-    
+    <Consolecard/>
     </>
   )
 }

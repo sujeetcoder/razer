@@ -1,0 +1,8 @@
+@media (max-width: 537px) {
+    .mobile_side {
+      font-size: 12px;
+    }
+}
+.final_gridd{
+  grid-template-columns: repeat(4,1fr);
+}

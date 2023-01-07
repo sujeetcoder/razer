@@ -25,16 +25,16 @@ const Home = () => {
       >
         {/* 1 Box */}
         <Box className={styles.first_box} pt="1%" w="100%">
-          <Text fontSize={"3.5rem"} fontWeight="bold">
+          <Text className={styles.F_text}>
             THE NEW RAZER BLADE 16 & 18
           </Text>
-          <Text fontSize={"1.900rem"} fontWeight="normal">
+          <Text className={styles.S_text}>
             REGISTER YOUR INTEREST TODAY
           </Text>
-          <Flex justifyContent={"center"} gap={20}>
+          <Flex justifyContent={"center"} gap={20} className={styles.flex_direc}>
             <Flex justifyContent={"center"} alignItems="center" gap={2}>
               <Text
-                fontSize={"1.200rem"}
+                className={styles.I_text}
                 _hover={{ textDecoration: "underline" }}
               >
                 Razer Blade 16
@@ -43,7 +43,7 @@ const Home = () => {
             </Flex>
             <Flex justifyContent={"center"} alignItems="center" gap={2}>
               <Text
-                fontSize={"1.200rem"}
+                className={styles.I_text}
                 _hover={{ textDecoration: "underline" }}
               >
                 Razer Blade 18
@@ -54,16 +54,16 @@ const Home = () => {
         </Box>
         {/* 2 Box */}
         <Box className={styles.second_box} mt="0.5%" w="100%">
-          <Text fontSize={"3.5rem"} fontWeight="bold">
+          <Text className={styles.F_text}>
             RAZER LEVIATHAN V2 PRO
           </Text>
-          <Text fontSize={"1.900rem"} fontWeight="normal">
+          <Text className={styles.S_text}>
             HEAD-TRACKING BEAMFORMING SOUNDBAR
           </Text>
-          <Flex justifyContent={"center"} gap={20}>
+          <Flex justifyContent={"center"}  gap={20}>
             <Flex justifyContent={"center"} alignItems="center" gap={2}>
               <Text
-                fontSize={"1.400rem"}
+                className={styles.I_text}
                 _hover={{ textDecoration: "underline" }}
               >
                 Learn More
@@ -72,7 +72,7 @@ const Home = () => {
             </Flex>
             <Flex justifyContent={"center"} alignItems="center" gap={2}>
               <Text
-                fontSize={"1.400rem"}
+                className={styles.I_text}
                 _hover={{ textDecoration: "underline" }}
               >
                 Buy
@@ -83,16 +83,16 @@ const Home = () => {
         </Box>
         {/* 3 Box */}
         <Box className={styles.third_box} mt="0.5%" pt={5} w="100%">
-          <Text fontSize={"3.5rem"} fontWeight="bold">
+          <Text className={styles.F_text}>
             RAZER KIYO PRO ULTRA
           </Text>
-          <Text fontSize={"1.900rem"} fontWeight="normal">
+          <Text className={styles.S_text}>
             THE LARGEST SENSOR IN A WEBCAM
           </Text>
           <Flex justifyContent={"center"} gap={20}>
             <Flex justifyContent={"center"} alignItems="center" gap={2}>
               <Text
-                fontSize={"1.400rem"}
+                className={styles.I_text}
                 _hover={{ textDecoration: "underline" }}
               >
                 Learn More
@@ -101,7 +101,7 @@ const Home = () => {
             </Flex>
             <Flex justifyContent={"center"} alignItems="center" gap={2}>
               <Text
-                fontSize={"1.400rem"}
+                className={styles.I_text}
                 _hover={{ textDecoration: "underline" }}
               >
                 Buy

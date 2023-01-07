@@ -97,14 +97,14 @@ const Navbar = () => {
                   justifySelf="self-start"
                   onClick={mobileNav.onClose}
                 />
-                <Button
+                <Link to="/store"><Button
                   fontWeight="normal"
                   fontSize={18}
                   w="full"
                   variant="ghost"
                 >
                   Store
-                </Button>
+                </Button></Link>
                 <Link to="/pc">
                   <Button
                     fontWeight="normal"
@@ -191,7 +191,7 @@ const Navbar = () => {
                   w={"38px"}
                 />
               </Link>
-              <Button
+              <Link to="/store"><Button
                 _hover={{ bg: "black", color: "white" }}
                 fontWeight="normal"
                 fontSize={20}
@@ -199,7 +199,7 @@ const Navbar = () => {
                 size="sm"
               >
                 Store
-              </Button>
+              </Button></Link>
               <Link to="/pc">
                 <Button
                   _hover={{ bg: "black", color: "white" }}

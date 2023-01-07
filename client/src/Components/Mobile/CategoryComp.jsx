@@ -18,7 +18,7 @@ const CategoryComp = ({smUrl,mdUrl,lgUrl,title,des,lUrl,lData}) => {
             <Text color="#44d62c">{">"}</Text>
           </Flex> </Link> }
 
-        <Flex m="auto" flexDirection={!smallScreen?"column":"row"} justifyContent="space-around" textAlign="center" w={!smallScreen?"95&":"60%"}>
+        <Flex m="auto" flexDirection={!smallScreen?"column":"row"} justifyContent="space-around" textAlign="center" w={!smallScreen?"95&":["95%","95%","80%","75%","60%"]}>
         {lData && lData.map((el,i)=>(
             <Link to={el.link || "#"} key={i} ><Flex justifyContent={"center"}  gap="10px" mt="10px">
             <Text color="#44d62c" _hover={{textDecoration:'underline'}} fontSize='mg ' >{el.title} </Text>

@@ -1,14 +1,13 @@
-import { Box, Button, Flex, Image, Text } from '@chakra-ui/react'
-import React from 'react'
+import { Box, Flex, Image, Text } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 import { useMedia } from '../../MediaQuery/UseMedia'
 
-const CategoryComp = ({mdUrl,lgUrl,title,des,lUrl,lData}) => {
+const CategoryComp = ({smUrl,mdUrl,lgUrl,title,des,lUrl,lData}) => {
     const {smallScreen,mediumScreen} = useMedia()
   return (
     <Box  w="100%" display="flex" justifyContent={"center"} borderBottom={"0.5px solid #44d62c"}>
         <Box w="100%">
-        <Image w="100%" h={!smallScreen?"450px": "100%"} src={!smallScreen? mdUrl : !mediumScreen? mdUrl : lgUrl} />
+        <Image w="100%" h={!smallScreen?"450px": "100%"} src={!smallScreen? smUrl || mdUrl : !mediumScreen? mdUrl : lgUrl} alt="image" />
         </Box>
         <Box w={["95%","90%","80%","70%","60%"]}  m="auto"  position={"absolute"}  mt="20px" zIndex={2} >
         <Text lineHeight={["26px","30px","32px",null,"35px"]} fontSize={!smallScreen?"xl": '3xl'} color="white" fontWeight={"thin"}> {title} </Text>

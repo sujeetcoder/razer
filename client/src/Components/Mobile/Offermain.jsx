@@ -1,10 +1,9 @@
 import { Box } from '@chakra-ui/react'
-import React from 'react'
 
-const Offermain = () => {
+const Offermain = ({title}) => {
   return (
     <Box textAlign="center" bg="#555555" p="3">
-        All orders over US$79 will enjoy free standard shipping to the United States.
+        {title || "All orders over US$79 will enjoy free standard shipping to the United States."}
     </Box>
   )
 }

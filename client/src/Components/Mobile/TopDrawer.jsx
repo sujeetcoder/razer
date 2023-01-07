@@ -1,14 +1,11 @@
-import { Box, Button ,Image,Heading,Text} from '@chakra-ui/react'
-import React, { useEffect, useRef } from 'react'
-import { Link, useNavigate } from 'react-router-dom';
-/* import "../App.css" */
-import { useMedia } from '../../MediaQuery/UseMedia';
+import { Box, Image, Text} from '@chakra-ui/react'
 
-let varForCrouser = true;
+import { Link } from 'react-router-dom';
+
+import { useMedia } from '../../MediaQuery/UseMedia';
 
 const TopDrawer = ({data}) => {
     const {mediumScreen} =  useMedia() 
-    const navigate = useNavigate();
     const hstyle = {
         display:"flex",
         overflowX:"auto",
@@ -20,8 +17,6 @@ const TopDrawer = ({data}) => {
         gap:"15px"
        }
     console.log( document?.getElementById("sujeet")?.scrollWidth, document?.getElementById("sujeet")?.clientWidth)
-    
-  
 
   return (
     <Box bgColor={"#1a1a1a"}  borderBottom={"0.5px solid #44d62c"}>

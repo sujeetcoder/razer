@@ -57,3 +57,59 @@
     background-position: center;
     cursor: pointer;
 }
+.big_boxx5{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/cd8c66be4b03c7637164d056fd453195/gamesetmatch-category-1920x700-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+   
+    z-index: 1;
+    background-position: center;
+    cursor: pointer;
+}
+.big_boxx6{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/0d79efdea8e15962374c6a38f94b47f5/razer-kaira-pro-category-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    z-index: 1;
+    background-position: center;
+    cursor: pointer;
+}
+.big_boxx7{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/d97d6645a23af786a27123af21877690/razer-wolverine-v2-chroma-category-1920x700-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    z-index: 1;
+    background-position: center;
+    cursor: pointer;
+}
+.big_boxx8{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/d97d6645a23af786a27123af21877690/razer-wolverine-v2-chroma-category-1920x700-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    z-index: 1;
+    background-position: center;
+    cursor: pointer;
+}
+ .big_boxx9{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/1f2c6dbd38e9414c6ed618b0ac283295/connect-compete-conquer-category-1920x700-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    z-index: 1;
+    background-position: center;
+    cursor: pointer;
+ }
+ .big_boxx_last{
+
+     background-image: url("https://assets2.razerzone.com/images/pnx.assets/8b828caeca30f807d38978df53d701c9/console-gamepads-engineered-category-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    background-position: center;
+    cursor: pointer;
+    z-index: 1;
+ }

@@ -1,8 +1,27 @@
-import React from 'react'
+import { Box, Card, CardBody, CardFooter, Flex, Image, Spacer, Text } from '@chakra-ui/react'
+import MetaData from '../Components/Home/MetaData'
+import Offermain from '../Components/Mobile/Offermain'
+import TopicBox from '../Components/Mobile/TopicBox'
+import CategoryComp2 from '../Components/Services/CategoryComp2'
+/* Data */
+import allDataService from '../Components/Services/allData'
 
 const Services = () => {
   return (
-    <div>Services</div>
+  <>
+  <MetaData title="Razer Services | Gold, Silver, RazerCare, Razer ID, and more" />
+    <Box w={"100%"} >
+    <Offermain />
+    <TopicBox title={"RAZER SERVICES"} color="black" >
+    Join over millions of users who enjoy using Razer Services to enrich their gaming experience.<br/>Razer Gold and Silver offers users the competitive advantage in any battlefield. Use Gold PINs to purchase from our ever-expanding list of games in the Gold Webshop. Protect your gear with RazerCare and use Razer ID to access all the best services Razer has to offer.<br/><br/> Unlock your ultimate gaming potential with Razer Services now.
+    </TopicBox>
+    <CategoryComp2 {...allDataService.categoryComp.categoryComp1}  />
+    <CategoryComp2 {...allDataService.categoryComp.categoryComp2}  />
+    
+
+
+    </Box>
+  </>
   )
 }
 

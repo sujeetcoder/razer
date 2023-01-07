@@ -1,0 +1,59 @@
+.big_boxx{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/4194777b74f8bf80078c6be1a4ea34e7/razer-wolverine-v2-pro-black-white-category-1920x700-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    z-index: 1;
+    background-position: center;
+    cursor: pointer;
+}
+.big_boxx2{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/874bdcaea660e93369e2c9210570a174/razer-xbox-controller-and-charging-stand-1920x700-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+   
+    z-index: 1;
+    background-position: center;
+    cursor: pointer;
+}
+.big_boxx3{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/cf0db6796b9f43a8069e19a6ebc739cb/stormtrooper-1920x700-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+   
+    z-index: 1;
+    background-position: center;
+    cursor: pointer;
+}
+.big_boxx4{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/0e064526124df6127811074622ca706f/sonic-the-hedgehog-xbox-controller-and-charging-stand-1920x700-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+   
+    z-index: 1;
+    background-position: center;
+    cursor: pointer;
+}
+.small_boxx1{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/8499d86161dfa22dc891d3437bb8802a/razer-hammerhead-hyperspeed-xbox-category-450x480.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 500px;
+    z-index: 1;
+    background-position: center;
+    cursor: pointer;
+}
+.small_boxx{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/cd7a4fc599a163926b8927a60efac747/razer-hammerhead-hyperspeed-playstation-category-450x480.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 500px;
+    z-index: 1;
+    background-position: center;
+    cursor: pointer;
+}

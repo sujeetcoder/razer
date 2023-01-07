@@ -7,6 +7,7 @@ import Home from '../Pages/Home'
 import LifeStyles from '../Pages/LifeStyles'
 import Mobile from '../Pages/Mobile'
 import Pc from '../Pages/Pc'
+import Store from '../Pages/Store'
 import Support from '../Pages/Support'
 
 const AllRoutes = () => {
@@ -15,7 +16,7 @@ const AllRoutes = () => {
         <Route path="/" element={<Home />}></Route>
         <Route path="/pc" element={<Pc />}></Route>
         <Route path="/console" element={<Console />}></Route>
-        <Route path="/store" element={<Home />}></Route>
+        <Route path="/store" element={<Store />}></Route>
         <Route path="/mobile" element={<Mobile />}></Route>
         <Route path="/lifestyle" element={<LifeStyles />}></Route>
         <Route path="/community" element={<Community />}></Route>

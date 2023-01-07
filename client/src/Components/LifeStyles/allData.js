@@ -1,4 +1,4 @@
-const allDataService = {
+const allDataLifestyle = {
     categoryComp : {
         categoryComp1: {
             lgUrl:"https://assets2.razerzone.com/images/pnx.assets/d7d8a5e49e0713010baa91b8c412cdda/services-razer-gold.jpg",
@@ -91,4 +91,4 @@ const allDataService = {
 }
 
 
-export default allDataService
+export default allDataLifestyle

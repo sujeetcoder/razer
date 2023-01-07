@@ -133,6 +133,7 @@ const Navbar = () => {
                     Mobile
                   </Button>
                 </Link>
+                <Link to="/lifestyle">
                 <Button
                   fontWeight="normal"
                   fontSize={18}
@@ -141,6 +142,7 @@ const Navbar = () => {
                 >
                   LifeStyle
                 </Button>
+                </Link>
                 <Link to="/service">
                 <Button
                   fontWeight="normal"
@@ -235,6 +237,7 @@ const Navbar = () => {
                   Mobile
                 </Button>
               </Link>
+              <Link to="/lifestyle">
               <Button
                 _hover={{ bg: "black", color: "white" }}
                 fontWeight="normal"
@@ -244,6 +247,7 @@ const Navbar = () => {
               >
                 LifeStyle
               </Button>
+              </Link>
               <Link to="/service">
               <Button
                 _hover={{ bg: "black", color: "white" }}

@@ -12,7 +12,7 @@ const SingleBox = ({title,des,link,img}) => {
             </Box>
             </CardBody>
             <CardFooter>
-            <Link to={link || "#"} ><Flex justifyContent={"left"}  gap="10px" mt="-25px">
+            <Link to={link || "#"} ><Flex justifyContent={"left"}   gap="10px" mt="-25px">
             <Text color="#44d62c" _hover={{textDecoration:'underline'}} fontSize='md' >learn more</Text>
             <Text color="#44d62c">{">"}</Text>
           </Flex> </Link> 

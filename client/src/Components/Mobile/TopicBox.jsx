@@ -9,14 +9,14 @@ const TopicBox = ({children,title,color}) => {
             textAlign="center"
             as="h1"
             fontWeight="100"
-            color="#44d62c"
+            color={"#44d62c"}
           >
             {title}
         </Heading>
         <Text
             textAlign="center"
             letterSpacing="1px"
-            color="#a593a1"
+            color={"#a593a1"}
             mt="10px"
           >
             {children}

@@ -1,24 +1,24 @@
 const allDataLifestyle = {
     categoryComp : {
         categoryComp1: {
-            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/d7d8a5e49e0713010baa91b8c412cdda/services-razer-gold.jpg",
-            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/d7d8a5e49e0713010baa91b8c412cdda/razer-gold-768x500-mobile.jpg",
-            title:"RAZER GOLD",
-            des:"Razer Gold is the unified virtual credits for gamers worldwide, available in over 42,000 games and entertainment titles. Use Razer Gold to buy games and in-game content to get more bang for your buck—including getting rewarded with Razer Silver and exclusive game deals. <br/> Get started by reloading your Razer Gold account online, or at any of our 5.6 million touchpoints around the world.",
+            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/0666dc773bd5460ed41bf6e1a1ebad3a/lifestyle-chairs-category-banner.jpg",
+            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/0666dc773bd5460ed41bf6e1a1ebad3a/lifestyle-chairs-category-banner-mobile.jpg",
+            title:"CHAIRS",
+            des:"Discover the support you need to power through gaming marathons.",
             lUrl:"/"
         },
         categoryComp2: {
-            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/b9e965bfe9e958df22d94e6eaea4dfa6/services-razer-silver.jpg",
-            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/b9e965bfe9e958df22d94e6eaea4dfa6/razer-silver-768x500-mobile.jpg",
-            title:"RAZER SILVER",
-            des:"Razer Silver is the only loyalty rewards program for gamers. <br/> Earn Razer Silver simply by using Razer Gold to make your game purchases or participating in our software and services. Utilize your Razer Silver in exclusive events or use them to redeem exciting rewards—from Razer hardware to digital rewards and discounts.",
+            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/f016346e8c8e71ae1ad6731d95943a86/sneki-snek-s2-desktop-cat-banner.jpg",
+            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/f016346e8c8e71ae1ad6731d95943a86/sneki-snek-s2-450x480-mobile-cat-banner.jpg",
+            title:"SNEKI SNEK ANIMATION SERIES",
+            des:"Can’t get enough of our adorable cutie? Catch Sneki Snek and friends in an all-new season as they continue to show why sustainability is important!",
             lUrl:"/"
         },
         categoryComp3: {
             lgUrl:"https://assets2.razerzone.com/images/pnx.assets/5044606f04fbcc28b98ca2be9b48bc3e/services-gold-pins.jpg",
             mdUrl:"https://assets2.razerzone.com/images/pnx.assets/5044606f04fbcc28b98ca2be9b48bc3e/razer-goldpin-768x500-mobile.jpg",
-            title:"GOLD PINS",
-            des:"Gold PINs are a digital code used to reload Razer Gold wallets or top up participating game credits. <br/> Gold PINs can be purchased at over 5.6 million touchpoints globally, including convenience stores, consumer electronics chains, and department stores.",
+            title:"COMPLETE YOUR SETUP",
+            des:"A Color For Every Style",
         },
         categoryComp4: {
           lgUrl:"https://assets2.razerzone.com/images/pnx.assets/c44ce6aa9d981f08ce3f054e20fa07b2/services-gold-webshop.jpg",
@@ -48,44 +48,85 @@ const allDataLifestyle = {
       des:"Gain a competitive advantage and leverage on our support, expertise and community with your Razer ID. Integrated with Razer's services and software, you can gain access to tons of tools with your Razer ID—including buying the best gamer gear on our site, redeeming Razer Silver, saving your personalized configs in Synapse, and more.",
       lUrl:"/"
       },
+      categoryComp8: {
+        lgUrl:"https://assets2.razerzone.com/images/pnx.assets/5650df732c97f6ce9e0c813fc57b9605/services-razer-id.jpg",
+        mdUrl:"https://assets2.razerzone.com/images/pnx.assets/5650df732c97f6ce9e0c813fc57b9605/services-razer-id.jpg",
+        title:"RAZER ID",
+        des:"Gain a competitive advantage and leverage on our support, expertise and community with your Razer ID. Integrated with Razer's services and software, you can gain access to tons of tools with your Razer ID—including buying the best gamer gear on our site, redeeming Razer Silver, saving your personalized configs in Synapse, and more.",
+        lUrl:"/"
+        },
+        categoryComp9: {
+          lgUrl:"https://assets2.razerzone.com/images/pnx.assets/5650df732c97f6ce9e0c813fc57b9605/services-razer-id.jpg",
+          mdUrl:"https://assets2.razerzone.com/images/pnx.assets/5650df732c97f6ce9e0c813fc57b9605/services-razer-id.jpg",
+          title:"RAZER ID",
+          des:"Gain a competitive advantage and leverage on our support, expertise and community with your Razer ID. Integrated with Razer's services and software, you can gain access to tons of tools with your Razer ID—including buying the best gamer gear on our site, redeeming Razer Silver, saving your personalized configs in Synapse, and more.",
+          lUrl:"/"
+          },
+          categoryComp10: {
+            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/5650df732c97f6ce9e0c813fc57b9605/services-razer-id.jpg",
+            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/5650df732c97f6ce9e0c813fc57b9605/services-razer-id.jpg",
+            title:"RAZER ID",
+            des:"Gain a competitive advantage and leverage on our support, expertise and community with your Razer ID. Integrated with Razer's services and software, you can gain access to tons of tools with your Razer ID—including buying the best gamer gear on our site, redeeming Razer Silver, saving your personalized configs in Synapse, and more.",
+            lUrl:"/"
+            },
     },
     topDrawer : {
       data1 : [
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-gold.svg",
-        title: "Gold",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-chairs.svg",
+        title: "Chairs",
         link: "/",
       },
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-silver.svg",
-        title: "Silver",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-watch.svg",
+        title: "Wearables",
         link: "/",
       },
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-goldpins.svg",
-        title: "Gold PINs",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-apparel.svg",
+        title: "Apparel",
         link: "/pc",
       },
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-goldwebshop.svg",
-        title: "Gold Webshop",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-bags.svg",
+        title: "Bags",
         link: "/console",
       },
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-giftcards.svg",
-        title: "Gift Cards",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-gear.svg",
+        title: "Gear",
         link: "/",
       },
       {
         img: "https://assets2.razerzone.com/images/main-menu/icons/icon-razercare.svg",
-        title: "RazerCare",
+        title: "Sneki Snek",
         link: "/",
       },
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-razerid.svg",
-        title: "Razer ID",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-respawn.svg",
+        title: "RESPAWN",
         link: "/",
-      }
+      },
+      {
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-customs-v2.svg",
+        title: "Customs",
+        link: "/",
+      },
+      {
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-collabs.svg",
+        title: "Collabs",
+        link: "/",
+      },
+      {
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-book13.svg",
+        title: "Book",
+        link: "/",
+      },
+      {
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-mac.svg",
+        title: "Mac",
+        link: "/",
+      },
     ],
   }
 }

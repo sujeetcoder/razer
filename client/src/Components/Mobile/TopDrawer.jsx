@@ -23,7 +23,7 @@ const TopDrawer = ({data}) => {
         <Box id="sujeet"  style={hstyle} m="auto" p="15px"  justifyContent={!mediumScreen && document?.getElementById("sujeet")?.scrollWidth > document?.getElementById("sujeet")?.clientWidth?"left":"center"}>
            {data && data.map((el,i)=>(
            <Link to={el.link} key={i}><Box  minW={"80px"} _hover={{color:"#44d62c"}} cursor="pointer"  margin={"auto"} textAlign="center" h="80px">
-                <Box /* _hover={{color:"#44d62c"}} cursor="pointer" */ style={{display:"flex",alignItems:"center",justifyContent:"center"}} margin={"auto"} h="80%">
+                <Box  style={{display:"flex",alignItems:"center",justifyContent:"center"}} margin={"auto"} h="80%">
                     <Image src={el.img} />
                 </Box>
                 <Text _hover={{color:"#44d62c"}} mt="-5px" fontSize={"13px"} >{el.title} </Text>

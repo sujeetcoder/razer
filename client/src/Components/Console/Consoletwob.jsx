@@ -43,7 +43,7 @@ const consoletwob = () => {
             <CardBody textAlign="left">
               <Text mb="2">RAZER QUICK CHARGING STAND FOR PS5™</Text>
               <Text color="#999076" fontWeight="thin" mb="2">
-              Quick Charging Stand for PS5™ DualSense™ Wireless Controller
+                    Quick Charging Stand for PS5™ DualSense™ Wireless Controller
               </Text>
               <Text fontWeight="light" color="#44d62c" mt="10%">
                 Learn More{" "}

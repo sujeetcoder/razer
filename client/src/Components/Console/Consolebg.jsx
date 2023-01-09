@@ -12,7 +12,7 @@ const consolebg = () => {
     <>
        
         
-        <Box textAlign={"center"} borderBottom={"1px solid #44d62c"}>
+       {/*  <Box textAlign={"center"} borderBottom={"1px solid #44d62c"}>
         <Box className={styles.big_boxx} w="100%" pt="4%" >
           <Text fontSize='4xl' color="white" fontWeight={"thin"}>RAZER WOLVERINE V2 PRO</Text>
           <Text fontSize='2xl' color="gray" fontWeight={"light"}>Wireless Pro Gaming Controller for PS5™ and PC</Text>
@@ -21,7 +21,7 @@ const consolebg = () => {
             <Box color="#44d62c">{">"}</Box>
           </Flex>
         </Box>
-        </Box>
+        </Box> */}
  
  
  
@@ -32,7 +32,7 @@ const consolebg = () => {
           <Text fontSize='3xl' color="white" fontWeight={"thin"} >RAZER LIMITED EDITION</Text>
           <Text fontSize='2xl' color="gray" fontWeight={"light"} >Play Anywhere. Carry Everywhere.</Text>
           <Flex justifyContent={"center"} gap="10px" mt="2%">
-            <Text color="#44d62c" _hover={{textDecoration:'underline'}} fontSize='2xl ' >learn more</Text>
+            <Text color="#44d62c" _hover={{textDecoration:'underline'}} fontSize='2xl'><a href='big.jsx'>learn more</a></Text>
             <Box color="#44d62c">{">"}</Box>
           </Flex>
         </Box>

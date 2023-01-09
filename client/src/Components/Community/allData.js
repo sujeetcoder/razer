@@ -1,30 +1,30 @@
 const allDataCommunity = {
     categoryComp : {
         categoryComp1: {
-            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/d7d8a5e49e0713010baa91b8c412cdda/services-razer-gold.jpg",
-            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/d7d8a5e49e0713010baa91b8c412cdda/razer-gold-768x500-mobile.jpg",
-            title:"RAZER GOLD",
-            des:"Razer Gold is the unified virtual credits for gamers worldwide, available in over 42,000 games and entertainment titles. Use Razer Gold to buy games and in-game content to get more bang for your buck—including getting rewarded with Razer Silver and exclusive game deals. <br/> Get started by reloading your Razer Gold account online, or at any of our 5.6 million touchpoints around the world.",
+            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/4ba81e9537f3b39f0ff8768ef1a2165c/razer-brand-campaign-2022-category-1920x700-desktop.jpg",
+            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/4ba81e9537f3b39f0ff8768ef1a2165c/razer-brand-campaign-2022-category-450x480-mobile.jpg",
+            title:"WIN IT YOUR WAY",
+            des:"",
             lUrl:"/"
         },
         categoryComp2: {
-            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/b9e965bfe9e958df22d94e6eaea4dfa6/services-razer-silver.jpg",
-            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/b9e965bfe9e958df22d94e6eaea4dfa6/razer-silver-768x500-mobile.jpg",
-            title:"RAZER SILVER",
-            des:"Razer Silver is the only loyalty rewards program for gamers. <br/> Earn Razer Silver simply by using Razer Gold to make your game purchases or participating in our software and services. Utilize your Razer Silver in exclusive events or use them to redeem exciting rewards—from Razer hardware to digital rewards and discounts.",
+            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/a53db448965f99aee538831a3e3df0f1/razer-community.jpg",
+            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/a53db448965f99aee538831a3e3df0f1/razer-community-450x480-mobile.jpg",
+            title:"DON’T KNOW WHERE TO BEGIN? START YOUR JOURNEY HERE.",
+            des:"",
             lUrl:"/"
         },
         categoryComp3: {
-            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/5044606f04fbcc28b98ca2be9b48bc3e/services-gold-pins.jpg",
-            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/5044606f04fbcc28b98ca2be9b48bc3e/razer-goldpin-768x500-mobile.jpg",
-            title:"GOLD PINS",
-            des:"Gold PINs are a digital code used to reload Razer Gold wallets or top up participating game credits. <br/> Gold PINs can be purchased at over 5.6 million touchpoints globally, including convenience stores, consumer electronics chains, and department stores.",
+            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/0b335ec990ba572534f8215e14e8008c/razer-community-stream.jpg",
+            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/0b335ec990ba572534f8215e14e8008c/razer-community-stream-450x480-mobile.jpg",
+            title:"WANT TO KNOW THE NEXT TIME WE GO LIVE ON STREAM?",
+            des:"",
         },
         categoryComp4: {
-          lgUrl:"https://assets2.razerzone.com/images/pnx.assets/c44ce6aa9d981f08ce3f054e20fa07b2/services-gold-webshop.jpg",
-          mdUrl:"https://assets2.razerzone.com/images/pnx.assets/c44ce6aa9d981f08ce3f054e20fa07b2/razer-webshop-768x500-mobile.jpg",
-          title:"GOLD WEBSHOP",
-          des:"Browse over 42,000 games and entertainment titles in the Gold Webshop. <br/> Recharge on the hottest titles such as PUBG Mobile, Mobile Legends: Bang Bang, Genshin Impact, and many more! Check out our Gold Webshop for the full list of titles.",
+          lgUrl:"https://assets2.razerzone.com/images/pnx.assets/c76379f9591f69e1df778c1354aac718/razer-esports.jpg",
+          mdUrl:"https://assets2.razerzone.com/images/pnx.assets/c76379f9591f69e1df778c1354aac718/razer-esports-450x480-mobile.jpg",
+          title:"GAME FOR SOME COMPETITION? LEARN MORE ABOUT TEAM RAZER.",
+          des:"",
           lUrl:"/"
         },
         categoryComp5: {
@@ -52,38 +52,53 @@ const allDataCommunity = {
     topDrawer : {
       data1 : [
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-gold.svg",
-        title: "Gold",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-getstarted.svg",
+        title: "Get Started",
         link: "/",
       },
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-silver.svg",
-        title: "Silver",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-esports.svg",
+        title: "Esports",
         link: "/",
       },
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-goldpins.svg",
-        title: "Gold PINs",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-razerstreamer.svg",
+        title: "#RazerStreamer",
         link: "/pc",
       },
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-goldwebshop.svg",
-        title: "Gold Webshop",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-events.svg",
+        title: "Events",
         link: "/console",
       },
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-giftcards.svg",
-        title: "Gift Cards",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-insider.svg",
+        title: "Insider",
         link: "/",
       },
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-razercare.svg",
-        title: "RazerCare",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-student.svg",
+        title: "Student",
         link: "/",
       },
       {
-        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-razerid.svg",
-        title: "Razer ID",
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-wallpapers.svg",
+        title: "Wallpapers",
+        link: "/",
+      },
+      {
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-stickers.svg",
+        title: "Stickers",
+        link: "/",
+      },
+      {
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-developers.svg",
+        title: "Developers",
+        link: "/",
+      },
+      {
+        img: "https://assets2.razerzone.com/images/main-menu/icons/icon-sustainability.svg",
+        title: "Sustainability",
         link: "/",
       }
     ],

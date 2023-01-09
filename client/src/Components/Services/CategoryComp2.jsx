@@ -42,7 +42,7 @@ const CategoryComp2 = ({smUrl,mdUrl,lgUrl,title,des,lUrl,lData,buttonText}) => {
         <Text lineHeight={["26px","30px","32px",null,"35px"]} fontSize={!smallScreen?"xl": '3xl'} color="white" fontWeight={"thin"} mb="18px" > {title} </Text>
         <Text fontSize={!smallScreen && des.length>74?'md':"lg"} color="gray" lineHeight={"base"} fontWeight={"light"} mt="5px"> {des2 && des2.map((el2,i2)=>(<span key={i2}>{el2}<br/><br/> </span>))} </Text>
 
-        {!lData && <Link to={lUrl || "#"} ><Flex m="auto" justifyContent={"center"}  style={{width:"fit-content"}} border="1px solid red"  gap="10px" mt="-20px">
+        {!lData && <Link to={lUrl || "#"} ><Flex m="auto" justifyContent={"center"}  style={{width:"fit-content"}}  gap="10px" mt="-20px">
             <Text color="#44d62c" _hover={{textDecoration:'underline'}} fontSize='mg ' >{buttonText?buttonText:"learn more"}</Text>
             <Text color="#44d62c">{">"}</Text>
           </Flex> </Link> }

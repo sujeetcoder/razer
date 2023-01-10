@@ -1,14 +1,10 @@
 import {
   Box,
-  Button,
-  Card,
-  CardBody,
-  Flex,
-  Heading,
-  Image,
-  Text,
 } from "@chakra-ui/react";
 import React from "react";
+import allData from "./allData";
+import PcBoxs from "./PcBoxs";
+import PcHeading from "./PcHeading";
 
 const PcMain = () => {
   return (
@@ -17,7 +13,19 @@ const PcMain = () => {
         All orders over US$79 will enjoy free standard shipping to the United
         States.
       </Box>
-      <Box bgColor="#111111" pt="10" pb="10">
+      <PcHeading color="#111111"  title={'LAPTOPS & DESKTOPS'}>Razer systems are crafted to provide the ultimate performance for gaming and work. Enjoy desktop power made mobile with our gaming and productivity laptops, or go all-out for your build as you assemble the most powerful aRGB Chroma powered battlestation.</PcHeading>
+      <PcBoxs data={allData.gridData.gridData1}  />
+      <PcHeading color="#111111"  title={'PERIPHERALS'}>The most powerful rigs mean nothing without the high-performance gear to match. Understand what it means to wield the unfair advantage as you experience industry-leading levels of precision, control, and immersion.</PcHeading>
+      <PcBoxs data={allData.gridData.gridData2}  />
+      <PcBoxs data={allData.gridData.gridData3}  />
+
+
+
+
+
+
+
+      {/* <Box bgColor="#111111" pt="10" pb="10">
         <Heading
           textAlign="center"
           as="h1"
@@ -41,7 +49,7 @@ const PcMain = () => {
         </Text>
       </Box>
       <Box p="10" bg="#252525">
-        <Flex gap="5">
+        <Flex gap="5" m={"auto"}>
           <Card
             maxW="sm"
             bg="#111111"
@@ -98,10 +106,10 @@ const PcMain = () => {
             </CardBody>
           </Card>
         </Flex>
-      </Box>
+      </Box> */}
 
       {/* PERIPHERALS */}
-      <Box bgColor="#111111" pt="10" pb="10">
+      {/* <Box bgColor="#111111" pt="10" pb="10">
         <Heading
           textAlign="center"
           as="h1"
@@ -182,9 +190,9 @@ const PcMain = () => {
             </CardBody>
           </Card>
         </Flex>
-      </Box>
+      </Box> */}
       {/* extra */}
-      <Box p="10" bg="#252525">
+      {/* <Box p="10" bg="#252525">
         <Flex gap="5">
           <Card
             maxW="sm"
@@ -242,12 +250,8 @@ const PcMain = () => {
             </CardBody>
           </Card>
         </Flex>
-      </Box>
-        {/* Image */}
-      <Box>
-      <Image src="https://assets2.razerzone.com/images/pnx.assets/6e289a72afea3e65be34ca0123930fff/complete-your-setup-campaign-hero-desktop.jpg"/>
-
-      </Box>
+      </Box> */}
+   
     </Box>
   );
 };

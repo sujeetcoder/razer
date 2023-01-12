@@ -2,7 +2,7 @@ import { Box, Flex, Image, Text } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 import { useMedia } from '../../MediaQuery/UseMedia'
 
-const CategoryComp2 = ({smUrl,mdUrl,lgUrl,title,des,lUrl,lData,buttonText}) => {
+const CategoryComp2 = ({smUrl,mdUrl,lgUrl,title,des,lUrl,lData,buttonText,smBgPosition,mdBgPosition}) => {
   let des2 = des.split("<br/>")
   const {smallScreen,mediumScreen,midBr} = useMedia()
   const lgStyle = {
@@ -17,7 +17,7 @@ const CategoryComp2 = ({smUrl,mdUrl,lgUrl,title,des,lUrl,lData,buttonText}) => {
   const mdStyle = {
     backgroundImage: `url(${mdUrl||lgUrl})`,
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
+    backgroundPosition: mdBgPosition || "center",
     minHeight: "700px",
     zIndex: 1,
     backgroundSize: "cover",
@@ -26,7 +26,7 @@ const CategoryComp2 = ({smUrl,mdUrl,lgUrl,title,des,lUrl,lData,buttonText}) => {
   const smStyle = {
     backgroundImage: `url(${smUrl || mdUrl || lgUrl})`,
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
+    backgroundPosition: smBgPosition || "center",
     minHeight: "500px",
     zIndex: 1,
     backgroundSize: "cover",

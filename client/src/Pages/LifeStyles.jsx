@@ -21,7 +21,7 @@ const LifeStyles = () => {
     <CategoryComp {...allDataLifestyle.categoryComp.categoryComp3}  />
     <CategoryComp2 {...allDataLifestyle.categoryComp.categoryComp4}  />
     <CategoryComp2 {...allDataLifestyle.categoryComp.categoryComp5}  />
-    <CategoryComp2 {...allDataLifestyle.categoryComp.categoryComp6}  />
+    <CategoryComp2 {...allDataLifestyle.categoryComp.categoryComp6} smBgPosition="100%" />
     <CategoryComp2 {...allDataLifestyle.categoryComp.categoryComp7}  />
     <CategoryComp2 {...allDataLifestyle.categoryComp.categoryComp8}  />
     <CategoryComp2 {...allDataLifestyle.categoryComp.categoryComp9}  />

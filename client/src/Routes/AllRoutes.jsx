@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Community from '../Pages/Community'
 import Console from '../Pages/Console'
-
+import { Page2 } from '../Pages/Page2'
 import Home from '../Pages/Home'
 import LifeStyles from '../Pages/LifeStyles'
 import Mobile from '../Pages/Mobile'
@@ -26,6 +26,7 @@ const AllRoutes = () => {
         <Route path="/product" element={<Home />}></Route>
         <Route path="/test" element={<Home />}></Route>
         <Route path="*" element={<h1>Hello</h1>}></Route>
+        <Route path='/console/v2-pro' element={<Page2/>}></Route>
 
     </Routes>
   )

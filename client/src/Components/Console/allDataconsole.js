@@ -2,50 +2,50 @@ const allDataconsole = {
     categoryComp : {
         categoryComp1: {
             lgUrl:"https://assets2.razerzone.com/images/pnx.assets/4194777b74f8bf80078c6be1a4ea34e7/razer-wolverine-v2-pro-black-white-category-1920x700-desktop.jpg",
-            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/d7d8a5e49e0713010baa91b8c412cdda/razer-gold-768x500-mobile.jpg",
+            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/4194777b74f8bf80078c6be1a4ea34e7/razer-wolverine-v2-pro-black-white-category-450x480-mobile.jpg",
             title:"RAZER WOLVERINE V2 PRO",
             des:"Wireless Pro Gaming Controller for PS5™ and PC",
-            lUrl:"/"
+            lUrl:"/console/v2-pro"
         },
         categoryComp2: {
-            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/b9e965bfe9e958df22d94e6eaea4dfa6/services-razer-silver.jpg",
-            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/b9e965bfe9e958df22d94e6eaea4dfa6/razer-silver-768x500-mobile.jpg",
-            title:"RAZER SILVER",
-            des:"Razer Silver is the only loyalty rewards program for gamers. <br/> Earn Razer Silver simply by using Razer Gold to make your game purchases or participating in our software and services. Utilize your Razer Silver in exclusive events or use them to redeem exciting rewards—from Razer hardware to digital rewards and discounts.",
+            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/874bdcaea660e93369e2c9210570a174/razer-xbox-controller-and-charging-stand-1920x700-desktop.jpg",
+            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/874bdcaea660e93369e2c9210570a174/razer-xbox-controller-and-charging-stand-450x480-mobile.jpg",
+            title:"RAZER LIMITED EDITION",
+            des:"Officially Licensed Xbox Controller and Quick Charging Stand",
             lUrl:"/"
         },
         categoryComp3: {
-            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/5044606f04fbcc28b98ca2be9b48bc3e/services-gold-pins.jpg",
-            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/5044606f04fbcc28b98ca2be9b48bc3e/razer-goldpin-768x500-mobile.jpg",
-            title:"GOLD PINS",
-            des:"Gold PINs are a digital code used to reload Razer Gold wallets or top up participating game credits. <br/> Gold PINs can be purchased at over 5.6 million touchpoints globally, including convenience stores, consumer electronics chains, and department stores.",
+            lgUrl:"https://assets2.razerzone.com/images/pnx.assets/cf0db6796b9f43a8069e19a6ebc739cb/stormtrooper-1920x700-desktop.jpg",
+            mdUrl:"https://assets2.razerzone.com/images/pnx.assets/cf0db6796b9f43a8069e19a6ebc739cb/stormtrooper-450x480-mobile.jpg",
+            title:"STORMTROOPER LIMITED EDITION",
+            des:"Officially Licensed Xbox Controller and Quick Charging Stand",
         },
         categoryComp4: {
-          lgUrl:"https://assets2.razerzone.com/images/pnx.assets/c44ce6aa9d981f08ce3f054e20fa07b2/services-gold-webshop.jpg",
-          mdUrl:"https://assets2.razerzone.com/images/pnx.assets/c44ce6aa9d981f08ce3f054e20fa07b2/razer-webshop-768x500-mobile.jpg",
-          title:"GOLD WEBSHOP",
-          des:"Browse over 42,000 games and entertainment titles in the Gold Webshop. <br/> Recharge on the hottest titles such as PUBG Mobile, Mobile Legends: Bang Bang, Genshin Impact, and many more! Check out our Gold Webshop for the full list of titles.",
+          lgUrl:"https://assets2.razerzone.com/images/pnx.assets/0e064526124df6127811074622ca706f/sonic-the-hedgehog-xbox-controller-and-charging-stand-1920x700-desktop.jpg",
+          mdUrl:"https://assets2.razerzone.com/images/pnx.assets/0e064526124df6127811074622ca706f/sonic-the-hedgehog-xbox-controller-and-charging-stand-450x480.jpg",
+          title:"SONIC THE HEDGEHOG LIMITED EDITION",
+          des:"Officially Licensed Xbox Controller and Quick Charging Stand",
           lUrl:"/"
         },
         categoryComp5: {
-        lgUrl:"https://assets2.razerzone.com/images/pnx.assets/c126593c168b557f2d7f3f0f596f4364/services-gift-card.jpg",
-        mdUrl:"https://assets2.razerzone.com/images/pnx.assets/c126593c168b557f2d7f3f0f596f4364/services-gift-card-mobile.jpg",
-        title:"RAZER GIFT CARD - GIVE THE GIFT OF GAMING",
-        des:"The Razer Gift Card unlocks the ultimate gifts for any gamer. From gaming peripherals to laptops to apparel, redeem from the largest catalog of Razer gear in the world, including rare and exclusive products only found on Razer.com. Recipients also enjoy 14-day risk free returns, and comprehensive customer support.",
+        lgUrl:"https://assets2.razerzone.com/images/pnx.assets/0d79efdea8e15962374c6a38f94b47f5/razer-kaira-pro-category-desktop.jpg",
+        mdUrl:"https://assets2.razerzone.com/images/pnx.assets/0d…38f94b47f5/razer-kaira-pro-category-mobile-v2.jpg",
+        title:"RAZER KAIRA PRO",
+        des:"Dual Wireless PlayStation 5 Headset with Haptics",
         lUrl:"/"
         },
         categoryComp6: {
-      lgUrl:"https://assets2.razerzone.com/images/pnx.assets/cd51cc9a2c8e89918bcce4a6b66132d3/services-razer-care.jpg",
-      mdUrl:"https://assets2.razerzone.com/images/pnx.assets/cd51cc9a2c8e89918bcce4a6b66132d3/razer-care-768x500-mobile.jpg",
+      lgUrl:"https://assets2.razerzone.com/images/pnx.assets/d97d6645a23af786a27123af21877690/razer-wolverine-v2-chroma-category-1920x700-desktop.jpg",
+      mdUrl:"https://assets2.razerzone.com/images/pnx.assets/d97d6645a23af786a27123af21877690/razer-wolverine-v2-chroma-category-450x480-mobile.jpg",
       title:"RAZERCARE",
-      des:"Protect your Razer gear with RazerCare—includes extended warranty that covers both mechanical and electrical issues due to normal product usage.",
+      des:"Dual Wireless PlayStation 5 Headset with Haptics",
       lUrl:"/"
       },
       categoryComp7: {
-      lgUrl:"https://assets2.razerzone.com/images/pnx.assets/5650df732c97f6ce9e0c813fc57b9605/services-razer-id.jpg",
-      mdUrl:"https://assets2.razerzone.com/images/pnx.assets/5650df732c97f6ce9e0c813fc57b9605/services-razer-id.jpg",
-      title:"RAZER ID",
-      des:"Gain a competitive advantage and leverage on our support, expertise and community with your Razer ID. Integrated with Razer's services and software, you can gain access to tons of tools with your Razer ID—including buying the best gamer gear on our site, redeeming Razer Silver, saving your personalized configs in Synapse, and more.",
+      lgUrl:"https://assets2.razerzone.com/images/pnx.assets/1f2c6dbd38e9414c6ed618b0ac283295/connect-compete-conquer-category-1920x700-desktop.jpg",
+      mdUrl:"https://assets2.razerzone.com/images/pnx.assets/1f2c6dbd38e9414c6ed618b0ac283295/connect-compete-conquer-category-450x480-mobile.jpg",
+      title:"CONNECT. COMPETE. CONQUER.",
+      des:"Arm yourself with the latest Playstation and Xbox Series X|S peripherals including the finest controller and headset arsenal for an unfair advantage.",
       lUrl:"/"
       },
     },
@@ -58,33 +58,18 @@ const allDataconsole = {
         },
         {
           img: "https://assets2.razerzone.com/images/main-menu/icons/icon-playstationlogo.svg",
-          title: "Silver",
+          title: "PlayStation",
           link: "/",
         },
         {
-          img: "https://assets2.razerzone.com/images/main-menu/icons/icon-goldpins.svg",
-          title: "Gold PINs",
+          img: "https://assets2.razerzone.com/images/main-menu/icons/icon-metaquest.svg",
+          title: "Meta Quest",
           link: "/pc",
         },
         {
-          img: "https://assets2.razerzone.com/images/main-menu/icons/icon-goldwebshop.svg",
-          title: "Gold Webshop",
+          img: "https://assets2.razerzone.com/images/main-menu/icons/icon-accessories.svg",
+          title: "Accessories",
           link: "/console",
-        },
-        {
-          img: "https://assets2.razerzone.com/images/main-menu/icons/icon-giftcards.svg",
-          title: "Gift Cards",
-          link: "/",
-        },
-        {
-          img: "https://assets2.razerzone.com/images/main-menu/icons/icon-razercare.svg",
-          title: "RazerCare",
-          link: "/",
-        },
-        {
-          img: "https://assets2.razerzone.com/images/main-menu/icons/icon-razerid.svg",
-          title: "Razer ID",
-          link: "/",
         }
       ]
   },
@@ -151,27 +136,27 @@ const allDataconsole = {
       ],
     gridData4 : [
         {
-          img:"https://assets2.razerzone.com/images/pnx.assets/fb8fbcd93487d2645e7a64470407dbaf/500x500_kishi-v2-for-iphone.jpg",
-          title:"RAZER KISHI V2 FOR IPHONE",
-          des:"Universal Mobile Gaming Controller for iPhone",
+          img:"https://assets2.razerzone.com/images/pnx.assets/659b9c018fff41847dfe1cb0e1706b7f/razer-wolverine-v2-white_500x500.png",
+          title:"RAZER WOLVERINE V2",
+          des:"Wired Gaming Controller for Xbox Series X|S with additional remappable front-facing buttons",
           link:"/"
         },
         {
-          img:"https://assets2.razerzone.com/images/pnx.assets/fb8fbcd93487d2645e7a64470407dbaf/500x500_kishi-v2-for-android.jpg",
+          img:"https://assets2.razerzone.com/images/pnx.assets/659b9c018fff41847dfe1cb0e1706b7f/razer-wolverine-v2-white_500x500.png",
           title:"RAZER KISHI V2 FOR ANDROID",
           des:"Universal Mobile Gaming Controller for Android",
           link:"/"
         },
         {
-          img:"https://assets2.razerzone.com/images/pnx.assets/41eb073828afa16458823c1b8cd2290c/razer-kishi-category-500x500.jpg",
-          title:"RAZER KISHI",
-          des:"Make your move with our award-winning universal mobile controller that fits most smartphone devices, designed to bring console-level control and comfort to your on-the-go gaming.",
+          img:"https://assets2.razerzone.com/images/pnx.assets/659b9c018fff41847dfe1cb0e1706b7f/500x500-kaira-white.png",
+          title:"RAZER KAIRA FOR XBOX",
+          des:"Wireless Xbox Series X|S headset with cutting-edge drivers and mic",
           link:"/"
         },
         {
-          img:"https://assets2.razerzone.com/images/pnx.assets/41eb073828afa16458823c1b8cd2290c/razer-kishi-category-500x500.jpg",
-          title:"RAZER KISHI",
-          des:"Make your move with our award-winning universal mobile controller that fits most smartphone devices, designed to bring console-level control and comfort to your on-the-go gaming.",
+          img:"https://assets2.razerzone.com/images/pnx.assets/659b9c018fff41847dfe1cb0e1706b7f/500x500-kaira-white.png",
+          title:"RAZER KAIRA PRO FOR XBOX",
+          des:"Wireless, Bluetooth-capable Xbox Series X|S headset that supports mobile Xbox gaming",
           link:"/"
         },
       ],

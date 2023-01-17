@@ -1,27 +1,21 @@
 
-import Motion from '../Components/Console/Motion.jsx';
-import React from 'react'
-import {
-  Box,
-  Text,
-  Flex,
-} from "@chakra-ui/react";
+ import React from 'react'
+ import Motion from '../Components/Console/Motion.jsx'
+import Motion2 from '../Components/Console/Motion2.jsx'
+import Motion3 from '../Components/Console/Motion3.jsx'
+import Tabl from '../Components/Console/Tabl.jsx'
+ export const Page2 = () => {
+   return (
+     <>
+     <Motion/>
+     <Motion2/>
+     <Motion3/>
+     <Tabl/>
+     </>
+   )
+ }
+ 
 
 
 
-
-export const Page2 = () => {
-
-  return (
-   <>
-      <Box>
-      <video playsinline="" autoplay="true" class="video-bg" muted="muted" preload="auto" volume="0" src="//assets2.razerzone.com/images/pnx.assets/af22101404e95a801e30f7bd763811b7/razer-wolverine-v2-pro-video.mp4" pnxssr_3=""></video>
-
-      </Box>
-       
-      <Motion/>
-    
-   </>
-  )
-}
 

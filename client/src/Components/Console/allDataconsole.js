@@ -29,7 +29,7 @@ const allDataconsole = {
         },
         categoryComp5: {
         lgUrl:"https://assets2.razerzone.com/images/pnx.assets/0d79efdea8e15962374c6a38f94b47f5/razer-kaira-pro-category-desktop.jpg",
-        mdUrl:"https://assets2.razerzone.com/images/pnx.assets/0d…38f94b47f5/razer-kaira-pro-category-mobile-v2.jpg",
+        mdUrl:"https://assets2.razerzone.com/images/pnx.assets/0d79efdea8e15962374c6a38f94b47f5/razer-kaira-pro-category-mobile-v2.jpg",
         title:"RAZER KAIRA PRO",
         des:"Dual Wireless PlayStation 5 Headset with Haptics",
         lUrl:"/"

@@ -97,14 +97,16 @@ const Navbar = () => {
                   justifySelf="self-start"
                   onClick={mobileNav.onClose}
                 />
-                <Link to="/store"><Button
-                  fontWeight="normal"
-                  fontSize={18}
-                  w="full"
-                  variant="ghost"
-                >
-                  Store
-                </Button></Link>
+                <Link to="/store">
+                  <Button
+                    fontWeight="normal"
+                    fontSize={18}
+                    w="full"
+                    variant="ghost"
+                  >
+                    Store
+                  </Button>
+                </Link>
                 <Link to="/pc">
                   <Button
                     fontWeight="normal"
@@ -134,43 +136,43 @@ const Navbar = () => {
                   </Button>
                 </Link>
                 <Link to="/lifestyle">
-                <Button
-                  fontWeight="normal"
-                  fontSize={18}
-                  w="full"
-                  variant="ghost"
-                >
-                  LifeStyle
-                </Button>
+                  <Button
+                    fontWeight="normal"
+                    fontSize={18}
+                    w="full"
+                    variant="ghost"
+                  >
+                    LifeStyle
+                  </Button>
                 </Link>
                 <Link to="/service">
-                <Button
-                  fontWeight="normal"
-                  fontSize={18}
-                  w="full"
-                  variant="ghost"
-                >
-                  Services
-                </Button>
+                  <Button
+                    fontWeight="normal"
+                    fontSize={18}
+                    w="full"
+                    variant="ghost"
+                  >
+                    Services
+                  </Button>
                 </Link>
                 <Link to="/community">
-                <Button
-                  fontWeight="normal"
-                  fontSize={18}
-                  w="full"
-                  variant="ghost"
-                >
-                  Community
-                </Button>
+                  <Button
+                    fontWeight="normal"
+                    fontSize={18}
+                    w="full"
+                    variant="ghost"
+                  >
+                    Community
+                  </Button>
                 </Link>
-                <Button
+                <Link to="/support"><Button
                   fontWeight="normal"
                   fontSize={18}
                   w="full"
                   variant="ghost"
                 >
                   Support
-                </Button>
+                </Button></Link>
                 <Button
                   fontWeight="normal"
                   fontSize={18}
@@ -197,15 +199,17 @@ const Navbar = () => {
                   w={"38px"}
                 />
               </Link>
-              <Link to="/store"><Button
-                _hover={{ bg: "black", color: "white" }}
-                fontWeight="normal"
-                fontSize={20}
-                variant="ghost"
-                size="sm"
-              >
-                Store
-              </Button></Link>
+              <Link to="/store">
+                <Button
+                  _hover={{ bg: "black", color: "white" }}
+                  fontWeight="normal"
+                  fontSize={20}
+                  variant="ghost"
+                  size="sm"
+                >
+                  Store
+                </Button>
+              </Link>
               <Link to="/pc">
                 <Button
                   _hover={{ bg: "black", color: "white" }}
@@ -240,39 +244,39 @@ const Navbar = () => {
                 </Button>
               </Link>
               <Link to="/lifestyle">
-              <Button
-                _hover={{ bg: "black", color: "white" }}
-                fontWeight="normal"
-                fontSize={20}
-                variant="ghost"
-                size="sm"
-              >
-                LifeStyle
-              </Button>
+                <Button
+                  _hover={{ bg: "black", color: "white" }}
+                  fontWeight="normal"
+                  fontSize={20}
+                  variant="ghost"
+                  size="sm"
+                >
+                  LifeStyle
+                </Button>
               </Link>
               <Link to="/service">
-              <Button
-                _hover={{ bg: "black", color: "white" }}
-                fontWeight="normal"
-                fontSize={20}
-                variant="ghost"
-                size="sm"
-              >
-                Services
-              </Button>
+                <Button
+                  _hover={{ bg: "black", color: "white" }}
+                  fontWeight="normal"
+                  fontSize={20}
+                  variant="ghost"
+                  size="sm"
+                >
+                  Services
+                </Button>
               </Link>
               <Link to="/community">
-              <Button
-                _hover={{ bg: "black", color: "white" }}
-                fontWeight="normal"
-                fontSize={20}
-                variant="ghost"
-                size="sm"
-              >
-                Community
-              </Button>
+                <Button
+                  _hover={{ bg: "black", color: "white" }}
+                  fontWeight="normal"
+                  fontSize={20}
+                  variant="ghost"
+                  size="sm"
+                >
+                  Community
+                </Button>
               </Link>
-              <Button
+              <Link to="/support"><Button
                 _hover={{ bg: "black", color: "white" }}
                 fontWeight="normal"
                 fontSize={20}
@@ -280,7 +284,7 @@ const Navbar = () => {
                 size="sm"
               >
                 Support
-              </Button>
+              </Button></Link>
               <Button
                 _hover={{ bg: "black", color: "white" }}
                 variant="ghost"

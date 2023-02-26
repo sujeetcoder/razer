@@ -1,0 +1,8 @@
+.sup_first{
+    background-image: url("https://assets.razerzone.com/support/images/new/home_search_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    background-size: cover;
+    cursor: pointer;  
+}

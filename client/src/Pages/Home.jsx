@@ -82,6 +82,8 @@ const Home = () => {
           </Flex>
         </Box>
         {/* 3 Box */}
+        <Box> <script async="async" data-cfasync="false" src="//pl26992987.profitableratecpm.com/132a8051e772819c1e50ae936ea453ca/invoke.js"></script>
+<div id="container-132a8051e772819c1e50ae936ea453ca"></div> </Box>
         <Box className={styles.third_box} mt="0.5%" pt={5} w="100%">
           <Text className={styles.F_text}>
             RAZER KIYO PRO ULTRA
